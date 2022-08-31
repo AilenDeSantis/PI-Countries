@@ -1,0 +1,25 @@
+.btnactpag{
+    background-color: rgb(66, 64, 64);
+    color: rgb(199, 187, 187);
+    border-radius: 6px;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    font-size: 90%;
+    font-weight: 200;
+
+}
+
+.btnpag{
+    background-color: rgb(220, 210, 210);
+    color:rgb(25, 31, 36);
+    border-radius: 6px;
+    border-color: rgba(0, 0, 0, 0.505);
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    font-weight:bold;
+}
+
+.btnpag:hover {
+    cursor: pointer;
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+}

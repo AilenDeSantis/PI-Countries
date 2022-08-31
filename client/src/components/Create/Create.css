@@ -1,0 +1,124 @@
+.backim {
+    background-image: url("https://c.pxhere.com/images/84/b7/2d8b54b996763aa0aad1d553513f-1442539.jpg!d");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  p.danger {
+      color: red;
+      font-size: 10px;
+    }
+    
+  input.danger {
+      border: 2px solid red;
+    }
+  
+  
+  select[multiple] {
+    height: 1.5em;
+    vertical-align: top;
+  }
+  select[multiple]:focus,
+  select[multiple]:active {
+    height: auto;
+  }
+  
+  .form {
+    position : absolute;
+    margin-top: 1%;
+    width  : 320px;
+    height : 600px;
+    padding: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display  : flex;
+    grid-gap : 5px;
+    grid-template-columns : repeat(1, 1fr);
+    border-radius: 20px;
+    left: 35%;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    font-weight: 190;
+    font-size: 110%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(173, 129, 48, 0.699);
+    justify-content: space-between;
+    
+  }
+
+.inputs {
+  background-color: rgba(233, 203, 148, 0.861);
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  font-size: 95%;
+  border-radius: 5px;
+  border-color: #000;
+  color: #000;
+}
+
+.inputs:hover {
+  cursor: pointer;
+  box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+}
+
+.ctitle{
+  font-weight: 2000;
+  font-size: 140%;
+}
+
+.cbtn{
+  cursor: pointer;
+    border-color: #000;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 3px;
+    font-size: 110%;
+    font-weight: 1;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    color: black;
+    background-color: rgba(229, 196, 144, 0.604);
+    text-decoration: none;
+}
+
+.cbtn:hover {
+  box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.69);
+  color: rgba(229, 196, 144, 0.873);
+  font-size: 111%;
+}
+
+.x{
+  background-color: rgba(180, 1, 1, 0.794);
+  border-radius: 5px;
+}
+
+.x:hover {
+  cursor: pointer;
+  box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+}
+
+/* .form {
+  position :relative;
+  width  : 300px;
+  height : 600px;
+  margin : 0 auto;
+  padding-top: 5px;
+  padding: 1em;
+  box-sizing:content-box;
+  background-color: rgba(173, 129, 48, 0.699);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display  : grid;
+  grid-gap : 5px;
+  grid-template-columns : repeat(1, 1fr);
+  grid-template-rows    : 1em 1em 1em 1em;
+  border-radius: 20px;
+  top: 2%;
+  font-family: "Latin Modern Roman";
+  font-style: italic;
+  align-items: center;
+  
+} */

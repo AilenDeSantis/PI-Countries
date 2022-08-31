@@ -1,0 +1,26 @@
+.input {
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    background-color: rgba(239, 214, 227, 0.684);    
+}
+
+.btnsearch{
+    cursor: pointer;
+    border-color: #000;
+    border-style: double;
+    border-radius: 5px;
+    font-size: 100%;
+    font-weight: 1;
+    font-family: "Latin Modern Roman";
+    font-style: italic;
+    color: black;
+    background-color: rgba(213, 168, 193, 0.459);
+}
+
+.btnsearch:hover {
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+    /* background-color: rgba(211, 199, 103, 0.829) ; */
+    background-color: rgba(0, 0, 0, 0.69);
+    color: rgba(239, 214, 227, 0.684);
+    font-size: 105%;
+}
